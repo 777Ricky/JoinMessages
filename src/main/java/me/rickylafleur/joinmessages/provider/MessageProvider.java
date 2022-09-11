@@ -54,7 +54,7 @@ public class MessageProvider implements InventoryProvider {
                     return ClickableItem.of(stack, e -> {
                         final User user = UserManager.getUser(player);
 
-                        if (!player.hasPermission(message.getPermission())) {
+                        if (!player.hasPermission(message.getPermission()) && !message.getPermission().isEmpty()) {
                             Messages.cfg("messages.menu.no-permission")
                                     .map(s -> s.replace("{message}", message.getIdentifier()))
                                     .send(player);

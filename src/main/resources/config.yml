@@ -6,7 +6,6 @@ messages:
     message-selected:
       message: "&7You have selected the {message} join message."
       sound: ENTITY_PLAYER_LEVELUP
-      title: "&aYou have selected the {message} join message."
     no-permission:
       sound: BLOCK_NOTE_BLOCK_BASS
   commands:
