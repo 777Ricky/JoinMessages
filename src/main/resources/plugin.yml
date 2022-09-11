@@ -1,0 +1,5 @@
+name: JoinMessages
+version: '${project.version}'
+main: me.rickylafleur.joinmessages.JoinMessagePlugin
+api-version: 1.17
+authors: [Ricky Lafleur]

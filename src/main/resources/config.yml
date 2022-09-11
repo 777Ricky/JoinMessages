@@ -1,0 +1,44 @@
+settings:
+  override-all-join-messages: true
+
+messages:
+  menu:
+    message-selected:
+      message: "&7You have selected the {message} join message."
+      sound: ENTITY_PLAYER_LEVELUP
+      title: "&aYou have selected the {message} join message."
+    no-permission:
+      sound: BLOCK_NOTE_BLOCK_BASS
+  commands:
+    open:
+      message: "&7Opening join messages menu."
+      sound: ENTITY_PLAYER_LEVELUP
+
+menu:
+  title: "Select your join message"
+  border-glass: true
+  previous-page:
+    material: "ARROW"
+    name: "&fPrevious page"
+    lore:
+      - ""
+    customModelData: 0
+  next-page:
+    material: "ARROW"
+    name: "&fNext page"
+    lore:
+      - ""
+    customModelData: 0
+
+join-messages:
+  default:
+    identifier: "default"
+    permission: ""
+    message:
+      - "&b{player} has joined the server!"
+    material: "BOOK"
+    name: "&bDefault Join Message"
+    lore:
+      - ""
+      - "&b{player} has joined the server!"
+    customModelData: 0
